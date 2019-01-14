@@ -124,6 +124,14 @@
   version = "v4"
 
 [[projects]]
+  branch = "master"
+  digest = "1:ef3589c5082eac12d04efdeca6dab7f8bac2d10bac4cfdbe51b252e4022b535a"
+  name = "github.com/casimir/xdg-go"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "372ccc2180dab73316615641d5617c5ed3e35529"
+
+[[projects]]
   digest = "1:65b0d980b428a6ad4425f2df4cd5410edd81f044cf527bd1c345368444649e58"
   name = "github.com/census-instrumentation/opencensus-proto"
   packages = [
@@ -1260,6 +1268,7 @@
     "github.com/Masterminds/sprig",
     "github.com/Masterminds/vcs",
     "github.com/asaskevich/govalidator",
+    "github.com/casimir/xdg-go",
     "github.com/evanphx/json-patch",
     "github.com/ghodss/yaml",
     "github.com/gobwas/glob",

@@ -63,3 +63,7 @@
   go-tests = true
   unused-packages = true
 
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/casimir/xdg-go"
